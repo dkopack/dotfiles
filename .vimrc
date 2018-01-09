@@ -2,6 +2,8 @@ syntax enable
 set background=dark
 colorscheme solarized
 
+filetype plugin indent on
+
 set number
 set smartindent
 set autoindent

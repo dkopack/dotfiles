@@ -65,3 +65,6 @@ export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 if [ -f ~/.private-zshrc ]; then
     source ~/.private-zshrc
 fi
+
+# added by travis gem
+[ -f /Users/dkopack/.travis/travis.sh ] && source /Users/dkopack/.travis/travis.sh

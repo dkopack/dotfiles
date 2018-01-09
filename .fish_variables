@@ -1,1 +1,1 @@
-set --export PATH /usr/local/sbin $PATH
+export REDIS_URL=redis://127.0.0.1:6379
